@@ -1,5 +1,5 @@
 = Spring MVC Unveiled: How It Leverages Servlet Technology
-:dev-article-url: https://dev.to/ahmedjaad
+:dev-article-url: https://dev.to/ahmedjaad/spring-mvc-unveiled-how-it-leverages-servlet-technology-41b8
 
 This is the accompanied code for the article published on {dev-article-url}[Dev Community].
 The article was originally written in AsciiDoc link:doc/spring_mvc_unveiled.adoc[here]
