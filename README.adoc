@@ -1,0 +1,19 @@
+= Spring MVC Unveiled: How It Leverages Servlet Technology
+:dev-article-url: https://dev.to/ahmedjaad
+
+This is the accompanied code for the article published on {dev-article-url}[Dev Community].
+The article was originally written in AsciiDoc link:doc/spring_mvc_unveiled.adoc[here]
+
+== Things to note
+* JDK 17 was used to build and run this project
+* The project Was written for Servlet 6.1, and
+* It Was deployed and tested on Tomcat 11.0.0
+
+== How to build and run
+* You need a servlet container, download and install Tomcat 11.0.0 from link:https://tomcat.apache.org/download-11.cgi[here], the core distribution should do it.
+* If you're using IntelliJ IDEA Ultimate, follow this link:https://www.youtube.com/watch?v=ThBw3WBTw9Q[video]
+* For Eclipse users, follow link:https://www.youtube.com/watch?v=M3FW_ihCNWo[this] instead.
+* If you like to build things manually
+** Build with maven: `mvn package`
+** Deploy to Tomcat: copy the war file, `target/servlet-basics-1.0-SNAPSHOT.war` to `webapps` directory under your Tomcat installation directory
+* The app should be available at `https://localhost:8080/{context_path}`, if you want to get rid of the context path, you can deploy the app at link:https://www.google.com/search?q=tomcat+deploy+at+root+path[the root path]
